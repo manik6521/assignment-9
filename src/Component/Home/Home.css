@@ -46,5 +46,6 @@ ul.navigation li a {
 
 .reviews-design {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }

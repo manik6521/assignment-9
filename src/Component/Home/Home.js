@@ -5,7 +5,7 @@ import "./Home.css"
 
 const Home = () => {
     const [review, setReview] = UseReviewsdata([]);
-    const threeReviews = review.slice(0, 3);
+    const threeReviews = review.slice(0, 6);
 
     console.log(threeReviews)
 
