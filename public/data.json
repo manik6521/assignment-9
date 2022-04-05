@@ -46,5 +46,29 @@
         "revenue": 61000,
         "ratting": "4.5star*",
         "comment": "good product in this month"
+    },
+    {
+        "name": "ninu",
+        "investment": 700000,
+        "sell": 670,
+        "revenue": 61000,
+        "ratting": "4.5star*",
+        "comment": "good product in this month"
+    },
+    {
+        "name": "ninu",
+        "investment": 700000,
+        "sell": 670,
+        "revenue": 61000,
+        "ratting": "4.5star*",
+        "comment": "good product in this month"
+    },
+    {
+        "name": "ninu",
+        "investment": 700000,
+        "sell": 670,
+        "revenue": 61000,
+        "ratting": "4.5star*",
+        "comment": "good product in this month"
     }
 ]
