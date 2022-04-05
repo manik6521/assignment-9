@@ -16,6 +16,9 @@ const Header = () => {
                         <Link to={"/dashboard"}>Dashboard</Link>
                     </li>
                     <li>
+                        <Link to={"/Blog"}>Blog</Link>
+                    </li>
+                    <li>
                         <Link to={"/about"}>About</Link>
                     </li>
                 </ul>
