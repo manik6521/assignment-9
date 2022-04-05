@@ -1,0 +1,13 @@
+.dashboard-container {
+    display: flex;
+    gap: 127px;
+    justify-content: center;
+}
+
+.line-chart {
+    width: 600px;
+}
+
+.area-chart {
+    width: 600px;
+}
