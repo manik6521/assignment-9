@@ -1,38 +1,50 @@
 [
     {
-        "month": "Mar",
+        "name": "modi ut eos dolores illum nam dolor",
         "investment": 100000,
         "sell": 241,
-        "revenue": 10401
+        "revenue": 10401,
+        "ratting": "5star*",
+        "comment": "laudantium enim quasi est quidem magnam voluptate ipsam eos tempora quo necessitatibus dolor quam autem quasi reiciendis et nam sapiente accusantium"
     },
     {
-        "month": "Apr",
+        "name": "fugit labore quia mollitia quas deserunt nostrum sunt",
         "investment": 200000,
         "sell": 423,
-        "revenue": 24500
+        "revenue": 24500,
+        "ratting": "4.5star*",
+        "comment": "est natus enim nihil est dolore omnis voluptatem numquam et omnis occaecati quod ullam at voluptatem error expedita pariatur nihil sint nostrum voluptatem reiciendis et"
     },
     {
-        "month": "May",
+        "name": "eaque et deleniti atque tenetur ut quo ut",
         "investment": 500000,
         "sell": 726,
-        "revenue": 67010
+        "revenue": 67010,
+        "ratting": "5star*",
+        "comment": "quia molestiae reprehenderit quasi aspernatur aut expedita occaecati aliquam eveniet laudantium omnis quibusdam delectus saepe"
     },
     {
-        "month": "Jun",
+        "name": "provident id voluptas",
         "investment": 500000,
         "sell": 529,
-        "revenue": 40405
+        "revenue": 40405,
+        "ratting": "3.5star*",
+        "comment": "non et atque occaecati deserunt quas accusantium unde odit nobis qui voluptatem quia voluptas consequuntur itaque dolor et qui rerum deleniti ut occaecati"
     },
     {
-        "month": "Jul",
+        "name": "et omnis dolorem",
         "investment": 600000,
         "sell": 601,
-        "revenue": 50900
+        "revenue": 50900,
+        "ratting": "5star*",
+        "comment": "harum non quasi et ratione tempore iure ex voluptates in ratione harum architecto fugit inventore cupiditate voluptates magni quo et"
     },
     {
-        "month": "Aug",
+        "name": "repellat consequatur praesentium vel minus molestias voluptatum",
         "investment": 700000,
         "sell": 670,
-        "revenue": 61000
+        "revenue": 61000,
+        "ratting": "4.5star*",
+        "comment": "maiores sed dolores similique labore et inventore et quasi temporibus esse sunt id et eos voluptatem aliquam"
     }
 ]
