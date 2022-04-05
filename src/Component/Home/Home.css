@@ -35,3 +35,16 @@ ul.navigation li a {
 .img-item img {
     width: 100%;
 }
+
+.home-reviews {
+    text-align: left;
+    background: aliceblue;
+    width: 357px;
+    padding: 17px;
+    margin: 28px;
+}
+
+.reviews-design {
+    display: flex;
+    justify-content: center;
+}

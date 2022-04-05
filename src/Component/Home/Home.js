@@ -1,7 +1,19 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import UseReviewsdata from '../Hook/UseReviewsdata';
 import "./Home.css"
 
 const Home = () => {
+    const [review, setReview] = UseReviewsdata([]);
+    const threeReviews = review.slice(0, 3);
+
+    console.log(threeReviews)
+
+    const navigate = useNavigate();
+    const handleSeeAllBtn = () => {
+        const path = "/review";
+        navigate(path);
+    };
     return (
         <div >
             <div className='container-home'>
@@ -14,6 +26,18 @@ const Home = () => {
                     <img src="https://c.s-microsoft.com/en-ca/CMSImages/1920_Panel01_PriorityFeature_AIO.jpg?version=84488a58-c07f-6a34-a2f8-6c51a147d7fb" alt="" />
                 </div>
             </div>
+
+            <div className='reviews-design'>
+                {
+                    threeReviews.map(review => <div className='home-reviews' key={review.sell}>
+                        <p>{review.name}</p>
+                        <p>{review.ratting}</p>
+                        <p>{review.comment}</p>
+                    </div>)
+                }
+
+            </div>
+            <button onClick={handleSeeAllBtn} > See more</button>
         </div>
     );
 };

@@ -3,27 +3,18 @@ import UseReviewsdata from '../Hook/UseReviewsdata';
 import './Review.css'
 
 const Review = () => {
-    const [reviews, setReviews] = useState([]);
-    useEffect(() => {
-        fetch("data.json")
-            .then(res => res.json())
-            .then(data => setReviews(data))
-        // console.log(reviews)
-
-    }, []);
+    const [review, setReview] = UseReviewsdata([]);
 
     return (
         <div className='review-data'>
-            <h5>Review Length: {reviews.length}</h5>
+
             {
-                reviews.map(review =>
-                    <UseReviewsdata
-                        key={review.sell}
-                        review={review}>
-
-                    </UseReviewsdata>)
+                review.map(reviews => <div key={reviews.sell}>
+                    <h2>{reviews.name}</h2>
+                    <p>{reviews.ratting}</p>
+                    <p>{reviews.comment}</p>
+                </div>)
             }
-
         </div>
     );
 };
