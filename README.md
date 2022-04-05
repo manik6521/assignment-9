@@ -1,3 +1,12 @@
+# live website link
+[live](https://fabulous-belekoy-da2b3e.netlify.app/).
+
+# Work list 
+* git clone 
+* home 
+* dashboard  
+* npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
