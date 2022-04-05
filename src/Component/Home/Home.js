@@ -3,11 +3,11 @@ import "./Home.css"
 
 const Home = () => {
     return (
-        <div>
-            <div>
+        <div >
+            <div className='container-home'>
                 <div className="text-container">
                     <h2>This is the best laptop in this month</h2>
-                    <h3>You can buy this laptop. There are lot of features included like touch screen, 360 degree movement, 12gb rem, 500gb SSD also 5 hours battery backup and so on.</h3>
+                    <p>You can buy this laptop. There are lot of features included like touch screen, 360 degree movement, 12gb rem, 500gb SSD also 5 hours battery backup and so on.</p>
                     <button>Live Demo</button>
                 </div>
                 <div className="img-item">

@@ -15,3 +15,23 @@ ul.navigation li a {
     color: #fff;
     font-size: 21px;
 }
+
+.text-container {
+    width: 500px;
+}
+
+.img-item {
+    width: 500px;
+}
+
+.container-home {
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    margin: auto;
+    gap: 84px;
+}
+
+.img-item img {
+    width: 100%;
+}
